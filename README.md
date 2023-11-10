@@ -57,3 +57,45 @@ Create serializers.py
 ```bash
 python manage.py runserver
 ```
+
+## :rocket: Building the React app
+
+```bash
+npx create-react-app students-fe
+```
+
+## Setting up our React app to integrate with Django
+
+- npm install bootstrap reactstrap axios --save
+- import "bootstrap/dist/css/bootstrap.min.css";
+
+## Working on the header component
+
+...
+
+## Working on the Creating New Student form
+
+...
+
+- <https://github.com/reactstrap/reactstrap>
+
+## Working on the modal to edit student information
+
+...
+
+## Creating the students listing
+
+...
+
+## Working on the home component
+
+...
+
+npm start
+
+## Final result
+
+- python manage.py runserver
+- npm start
+
+![Alt text](./documentation/image.png)
